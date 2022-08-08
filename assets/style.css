@@ -122,10 +122,56 @@ header nav ul li a:hover {
 
 .project {
     min-width: 600px;
+    height: 300px;
     width: 100%;
     border: 6px solid rgb(28, 184, 201);
     margin: 10px;
-    flex: 1;
+    flex: 1 1 25%;
+    background-image: url(../assets/images/Coming-Soon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.project-2 {
+    background-image: url(../assets/images/led-wall.jpg);
+}
+
+.project-3 {
+    background-image: url(../assets/images/calculator.jpg);
+}
+
+.project-4 {
+    background-image: url(../assets/images/puzzle.webp);
+}
+
+.project-5 {
+    background-image: url(../assets/images/run-buddy.PNG);
+}
+
+.project:hover {
+    background-color: rgb(28, 184, 201);
+    color: rgb(16, 20, 22);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    block-size: 50%;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    background-color: rgb(28, 184, 201);
+    max-width: 200px;
+    position: relative;
+    top: 35%;
+}
+
+.project-info h3 {
+    font-size: medium;
+    font-weight: normal;
+    padding-top: 5px;
 }
 
 .project img {
