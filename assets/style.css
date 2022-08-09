@@ -118,6 +118,7 @@ header nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    flex: auto;
 }
 
 .container {
@@ -142,12 +143,12 @@ header nav ul li a:hover {
 }
 
 .project {
-    min-width: 600px;
+    min-width: 500px;
     height: 300px;
     width: 100%;
     border: 6px solid rgb(28, 184, 201);
     margin: 10px;
-    flex: 1 1 25%;
+    flex: 1 1 33%;
     background-image: url(../assets/images/Coming-Soon.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -171,7 +172,7 @@ header nav ul li a:hover {
     background-image: url(../assets/images/run-buddy.PNG);
 }
 
-.project-2:hover,
+/* .project-2:hover,
 .project-3:hover,
 .project-4:hover,
 .project-5:hover {
@@ -179,7 +180,7 @@ header nav ul li a:hover {
     color: rgb(16, 20, 22);
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
     block-size: 50%;
-}
+} */
 
 .project-1:hover {
     background-color: rgb(28, 184, 201);
@@ -261,4 +262,27 @@ footer ul li a:hover {
 
 .no-click {
     cursor: not-allowed;
+}
+
+@media screen and (min-width:981px) {
+
+    .project-2:hover,
+    .project-3:hover,
+    .project-4:hover,
+    .project-5:hover {
+        background-color: rgb(28, 184, 201);
+        color: rgb(16, 20, 22);
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        block-size: 50%;
+    }
+}
+
+/* Media Query for smaller desktop screens and smaller */
+
+@media screen and (max-width:980px) {
+    .project:hover {
+        background-color: rgb(28, 184, 201);
+        color: rgb(16, 20, 22);
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    }
 }
