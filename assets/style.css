@@ -429,3 +429,26 @@ footer ul li a:hover {
         background-position-x: -20%;
     }
 }
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+
+@media screen and (max-width: 575px) {
+    header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    header nav ul li {
+        margin: 10px auto;
+    }
+
+    .contact-section {
+        padding-right: 0px;
+    }
+
+    .contact-section ul {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+}
