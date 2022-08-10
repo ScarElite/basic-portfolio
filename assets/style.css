@@ -258,11 +258,12 @@ footer ul li a:hover {
 
 .contact-section h1 {
     padding: 0px 15px 0px 0px;
+    margin-left: 55px;
 }
 
 .contact-section ul {
-    margin-left: 100px;
-    width: 75%;
+    display: inline-flexbox;
+    width: 100%;
     padding-left: 20px;
 }
 
@@ -386,6 +387,15 @@ footer ul li a:hover {
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 
 @media screen and (max-width: 768px) {
+    header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    header nav ul li {
+        margin: 10px auto;
+    }
+
     .hero img {
         margin-left: 10px;
         margin-right: 25px;
@@ -433,6 +443,10 @@ footer ul li a:hover {
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 
 @media screen and (max-width: 575px) {
+    header {
+        overflow: auto;
+    }
+
     header nav ul {
         display: flex;
         flex-wrap: wrap;
