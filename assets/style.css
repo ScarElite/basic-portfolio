@@ -163,12 +163,14 @@ header nav ul li a:hover {
 }
 
 .project-3 {
-    background-image: url(../assets/images/horiseon.PNG);
+    background-image: url(../assets/images/Alternative-Endings.PNG);
+    background-size: cover;
     background-position: top;
 }
 
 .project-4 {
-    background-image: url(../assets/images/puzzle.webp);
+    background-image: url(../assets/images/horiseon.PNG);
+    background-position: top;
 }
 
 .project-5 {
@@ -181,7 +183,7 @@ header nav ul li a:hover {
     font-size: 16px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 20px;
-    background-color: rgb(28, 184, 201);
+    background-color: rgba(28, 184, 201, 0.8);
     max-width: 200px;
     position: relative;
     top: -40%;
